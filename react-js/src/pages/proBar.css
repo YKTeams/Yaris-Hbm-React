@@ -1,0 +1,3821 @@
+
+.container .progress {
+  margin: 0 auto;
+  width: auto;
+}
+
+.progress {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar {
+  height: 16px;
+  border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       https://css-tricks.com/webkit-sibling-bug/
+ */
+
+#five:checked ~ .progress > .progress-bar {
+  width: 5%;
+  background-color:#86e01e;
+}
+
+#twentyfive:checked ~ .progress > .progress-bar {
+  width: 25%;
+  background-color: #86e01e;
+}
+
+#fifty:checked ~ .progress > .progress-bar {
+  width: 50%;
+  background-color: #86e01e;
+}
+
+#seventyfive:checked ~ .progress > .progress-bar {
+  width: 75%;
+  background-color: #f2d31b;
+}
+
+#onehundred:checked ~ .progress > .progress-bar {
+  width: 100%;
+  background-color : #f27011;
+}
+
+
+
+/* 2. KUTU */
+
+.container1 .progress1 {
+  margin: 0 auto;
+  width: auto;
+}
+
+.progress1 {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar1 {
+  height: 16px;
+  border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       https://css-tricks.com/webkit-sibling-bug/
+ */
+
+#five1:checked ~ .progress1 > .progress-bar1 {
+  width: 5%;
+  background-color: #86e01e;
+}
+
+#twentyfive1:checked ~ .progress1 > .progress-bar1 {
+  width: 25%;
+  background-color: #86e01e;
+}
+
+#fifty1:checked ~ .progress1 > .progress-bar1 {
+  width: 50%;
+  background-color: #86e01e;
+}
+
+#seventyfive1:checked ~ .progress1 > .progress-bar1 {
+  width: 75%;
+  background-color: #f2d31b;
+}
+
+#onehundred1:checked ~ .progress1 > .progress-bar1 {
+  width: 100%;
+  background-color:  #f27011;
+}
+
+/* 3. KUTU */
+
+.container2 .progress2 {
+  margin: 0 auto;
+  width: auto;
+}
+
+.progress2 {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar2 {
+  height: 16px;
+  border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       https://css-tricks.com/webkit-sibling-bug/
+ */
+
+#five2:checked ~ .progress2 > .progress-bar2 {
+  width: 5%;
+  background-color:#86e01e;
+}
+
+#twentyfive2:checked ~ .progress2 > .progress-bar2 {
+  width: 25%;
+  background-color:#86e01e;
+}
+
+#fifty2:checked ~ .progress2 > .progress-bar2 {
+  width: 50%;
+  background-color:#86e01e;
+}
+
+#seventyfive2:checked ~ .progress2 > .progress-bar2 {
+  width: 75%;
+  background-color: #86e01e;
+}
+
+#onehundred2:checked ~ .progress2 > .progress-bar2 {
+  width: 100%;
+  background-color: #f63a0f;
+}
+
+/* 4. KUTU */
+
+.container3 .progress3 {
+  margin: 0 auto;
+  width: auto;
+}
+
+.progress3 {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar3 {
+  height: 16px;
+  border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       https://css-tricks.com/webkit-sibling-bug/
+ */
+
+#five3:checked ~ .progress3 > .progress-bar3 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+
+#twentyfive3:checked ~ .progress3 > .progress-bar3 {
+  width: 25%;
+  background-color: #f27011;
+}
+
+#fifty3:checked ~ .progress3 > .progress-bar3 {
+  width: 50%;
+  background-color: #f2b01e;
+}
+
+#seventyfive3:checked ~ .progress3 > .progress-bar3 {
+  width: 75%;
+  background-color: #f2d31b;
+}
+
+#onehundred3:checked ~ .progress3 > .progress-bar3 {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+
+/* 4. KUTU */
+
+.container4 .progress4 {
+  margin: 0 auto;
+  width: auto;
+}
+
+.progress4 {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar4 {
+  height: 16px;
+  border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       https://css-tricks.com/webkit-sibling-bug/
+ */
+
+#five4:checked ~ .progress4 > .progress-bar4 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+
+#twentyfive4:checked ~ .progress4 > .progress-bar4  {
+  width: 25%;
+  background-color: #f27011;
+}
+
+#fifty4:checked ~ .progress4 > .progress-bar4  {
+  width: 50%;
+  background-color: #f2b01e;
+}
+
+#seventyfive4:checked ~ .progress4 > .progress-bar4  {
+  width: 75%;
+  background-color: #f2d31b;
+}
+
+#onehundred4:checked ~ .progress4 > .progress-bar4  {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+/* 5. KUTU */
+
+.container5 .progress5 {
+  margin: 0 auto;
+  width: auto;
+}
+
+.progress5 {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar5 {
+  height: 16px;
+  border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       https://css-tricks.com/webkit-sibling-bug/
+ */
+
+#five5:checked ~ .progress5 > .progress-bar5 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+
+#twentyfive5:checked ~ .progress5 > .progress-bar5  {
+  width: 25%;
+  background-color: #f27011;
+}
+
+#fifty5:checked ~ .progress5 > .progress-bar5  {
+  width: 50%;
+  background-color: #f2b01e;
+}
+
+#seventyfive5:checked ~ .progress5 > .progress-bar5  {
+  width: 75%;
+  background-color: #f2d31b;
+}
+
+#onehundred5:checked ~ .progress5 > .progress-bar5  {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+/* 6. KUTU */
+
+.container6 .progress6 {
+  margin: 0 auto;
+  width: auto;
+}
+
+.progress6 {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar6 {
+  height: 16px;
+  border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       https://css-tricks.com/webkit-sibling-bug/
+ */
+
+#five6:checked ~ .progress6 > .progress-bar6 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+
+#twentyfive6:checked ~ .progress6 > .progress-bar6  {
+  width: 25%;
+  background-color: #f27011;
+}
+
+#fifty6:checked ~ .progress6 > .progress-bar6  {
+  width: 50%;
+  background-color: #f2b01e;
+}
+
+#seventyfive6:checked ~ .progress6 > .progress-bar6  {
+  width: 75%;
+  background-color: #f2d31b;
+}
+
+#onehundred6:checked ~ .progress6 > .progress-bar6  {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+/* 7. KUTU */
+
+.container7 .progress7 {
+  margin: 0 auto;
+  width: auto;
+}
+
+.progress7 {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar7 {
+  height: 16px;
+  border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       https://css-tricks.com/webkit-sibling-bug/
+ */
+
+#five7:checked ~ .progress7 > .progress-bar7 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+
+#twentyfive7:checked ~ .progress7 > .progress-bar7  {
+  width: 25%;
+  background-color: #f27011;
+}
+
+#fifty7:checked ~ .progress7 > .progress-bar7  {
+  width: 50%;
+  background-color: #f2b01e;
+}
+
+#seventyfive7:checked ~ .progress7 > .progress-bar7  {
+  width: 75%;
+  background-color: #f2d31b;
+}
+
+#onehundred7:checked ~ .progress7 > .progress-bar7  {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+/* 8. KUTU YAĞLAMA-1 */
+
+.container8 .progress8 {
+  margin: 0 auto;
+  width: auto;
+}
+
+.progress8 {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar8 {
+  height: 16px;
+  border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       https://css-tricks.com/webkit-sibling-bug/
+ */
+
+ #five8:checked ~ .progress8 > .progress-bar8 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+
+#twentyfive8:checked ~ .progress8 > .progress-bar8  {
+  width: 25%;
+  background-color: #f28011;
+}
+
+#fifty8:checked ~ .progress8 > .progress-bar8  {
+  width: 50%;
+  background-color: #f2b01e;
+}
+
+#seventyfive8:checked ~ .progress8 > .progress-bar8  {
+  width: 85%;
+  background-color: #f2d31b;
+}
+
+#onehundred8:checked ~ .progress8 > .progress-bar8  {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+/* 10. KUTU YAĞLAMA-2 */
+
+.container9 .progress9 {
+  margin: 0 auto;
+  width: auto;
+}
+
+.progress9 {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar9 {
+  height: 16px;
+  border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       https://css-tricks.com/webkit-sibling-bug/
+ */
+
+ #five9:checked ~ .progress9 > .progress-bar9 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+
+#twentyfive9:checked ~ .progress9 > .progress-bar9  {
+  width: 25%;
+  background-color: #f28011;
+}
+
+#fifty9:checked ~ .progress9 > .progress-bar9  {
+  width: 50%;
+  background-color: #f2b01e;
+}
+
+#seventyfive9:checked ~ .progress9 > .progress-bar9  {
+  width: 85%;
+  background-color: #f2d31b;
+}
+
+#onehundred9:checked ~ .progress9 > .progress-bar9  {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+/* 11. KUTU YAĞLAMA-3 */
+
+.container10 .progress10 {
+  margin: 0 auto;
+  width: auto;
+}
+
+.progress10 {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar10 {
+  height: 16px;
+  border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       https://css-tricks.com/webkit-sibling-bug/
+ */
+
+ #five10:checked ~ .progress10 > .progress-bar10 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+
+#twentyfive10:checked ~ .progress10 > .progress-bar10  {
+  width: 25%;
+  background-color: #f28011;
+}
+
+#fifty10:checked ~ .progress10 > .progress-bar10  {
+  width: 50%;
+  background-color: #f2b01e;
+}
+
+#seventyfive10:checked ~ .progress10 > .progress-bar10  {
+  width: 85%;
+  background-color: #f2d31b;
+}
+
+#onehundred10:checked ~ .progress10 > .progress-bar10  {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+/* 11. KUTU YAĞLAMA-3 */
+
+.container11 .progress11 {
+  margin: 0 auto;
+  width: auto;
+}
+
+.progress11 {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar11 {
+  height: 16px;
+  border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       https://css-tricks.com/webkit-sibling-bug/
+ */
+
+ #five11:checked ~ .progress11 > .progress-bar11 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+
+#twentyfive11:checked ~ .progress11 > .progress-bar11  {
+  width: 25%;
+  background-color: #f28011;
+}
+
+#fifty11:checked ~ .progress11 > .progress-bar11  {
+  width: 50%;
+  background-color: #f2b01e;
+}
+
+#seventyfive11:checked ~ .progress11 > .progress-bar11  {
+  width: 85%;
+  background-color: #f2d31b;
+}
+
+#onehundred11:checked ~ .progress11 > .progress-bar11  {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+/* 11. KUTU YAĞLAMA-3 */
+
+.container12 .progress12 {
+  margin: 0 auto;
+  width: auto;
+}
+
+.progress12 {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar12 {
+  height: 16px;
+  border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       https://css-tricks.com/webkit-sibling-bug/
+ */
+
+ #five12:checked ~ .progress12 > .progress-bar12 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+
+#twentyfive12:checked ~ .progress12 > .progress-bar12  {
+  width: 25%;
+  background-color: #f28011;
+}
+
+#fifty12:checked ~ .progress12 > .progress-bar12  {
+  width: 50%;
+  background-color: #f2b01e;
+}
+
+#seventyfive12:checked ~ .progress12 > .progress-bar12  {
+  width: 85%;
+  background-color: #f2d31b;
+}
+
+#onehundred12:checked ~ .progress12 > .progress-bar12  {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+/* 11. KUTU YAĞLAMA-3 */
+
+.container13 .progress13 {
+  margin: 0 auto;
+  width: auto;
+}
+
+.progress13 {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar13 {
+  height: 16px;
+  border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       https://css-tricks.com/webkit-sibling-bug/
+ */
+
+ #five13:checked ~ .progress13 > .progress-bar13 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+
+#twentyfive13:checked ~ .progress13 > .progress-bar13  {
+  width: 25%;
+  background-color: #f28011;
+}
+
+#fifty13:checked ~ .progress13 > .progress-bar13  {
+  width: 50%;
+  background-color: #f2b01e;
+}
+
+#seventyfive13:checked ~ .progress13 > .progress-bar13  {
+  width: 85%;
+  background-color: #f2d31b;
+}
+
+#onehundred13:checked ~ .progress13 > .progress-bar13  {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+/* 11. KUTU YAĞLAMA-3 */
+
+.container14 .progress14 {
+  margin: 0 auto;
+  width: auto;
+}
+
+.progress14 {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar14 {
+  height: 16px;
+  border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       https://css-tricks.com/webkit-sibling-bug/
+ */
+
+ #five14:checked ~ .progress14 > .progress-bar14 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+
+#twentyfive14:checked ~ .progress14 > .progress-bar14  {
+  width: 25%;
+  background-color: #f28011;
+}
+
+#fifty14:checked ~ .progress14 > .progress-bar14  {
+  width: 50%;
+  background-color: #f2b01e;
+}
+
+#seventyfive14:checked ~ .progress14 > .progress-bar14  {
+  width: 85%;
+  background-color: #f2d31b;
+}
+
+#onehundred14:checked ~ .progress14 > .progress-bar14  {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+/* 11. KUTU YAĞLAMA-3 */
+
+.container15 .progress15 {
+  margin: 0 auto;
+  width: auto;
+}
+
+.progress15 {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar15 {
+  height: 16px;
+  border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       https://css-tricks.com/webkit-sibling-bug/
+ */
+
+ #five15:checked ~ .progress15 > .progress-bar15 {
+  width: 5%;
+  background-color: #f63a0f;
+}
+
+#twentyfive15:checked ~ .progress15 > .progress-bar15  {
+  width: 25%;
+  background-color: #f28011;
+}
+
+#fifty15:checked ~ .progress15 > .progress-bar15  {
+  width: 50%;
+  background-color: #f2b01e;
+}
+
+#seventyfive15:checked ~ .progress15 > .progress-bar15  {
+  width: 85%;
+  background-color: #f2d31b;
+}
+
+#onehundred15:checked ~ .progress15 > .progress-bar15  {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+
+
+
+.radio {
+  display: none;
+}
+
+.radio:checked + .label {
+  color: white;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+@media screen and (min-width: 1920px) {
+  .progress-bar {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+  #five:checked ~ .progress > .progress-bar {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive:checked ~ .progress > .progress-bar {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty:checked ~ .progress > .progress-bar {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive:checked ~ .progress > .progress-bar {
+    width: 75%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred:checked ~ .progress > .progress-bar {
+    width: 100%;
+    background-color: #e0451e;
+  }
+  
+  
+  
+  /* 2. KUTU */
+  
+  .container1 .progress1 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress1 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar1 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+  #five1:checked ~ .progress1 > .progress-bar1 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive1:checked ~ .progress1 > .progress-bar1 {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty1:checked ~ .progress1 > .progress-bar1 {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive1:checked ~ .progress1 > .progress-bar1 {
+    width: 75%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred1:checked ~ .progress1 > .progress-bar1 {
+    width: 100%;
+    background-color: #e0451e;
+  }
+  
+  /* 3. KUTU */
+  
+  .container2 .progress2 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress2 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar2 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+  #five2:checked ~ .progress2 > .progress-bar2 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive2:checked ~ .progress2 > .progress-bar2 {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty2:checked ~ .progress2 > .progress-bar2 {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive2:checked ~ .progress2 > .progress-bar2 {
+    width: 75%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred2:checked ~ .progress2 > .progress-bar2 {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+  
+  /* 4. KUTU */
+  
+  .container3 .progress3 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress3 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar3 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+  #five3:checked ~ .progress3 > .progress-bar3 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive3:checked ~ .progress3 > .progress-bar3 {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty3:checked ~ .progress3 > .progress-bar3 {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive3:checked ~ .progress3 > .progress-bar3 {
+    width: 75%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred3:checked ~ .progress3 > .progress-bar3 {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+  
+  
+  
+  /* 4. KUTU */
+  
+  .container4 .progress4 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress4 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar4 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+  #five4:checked ~ .progress4 > .progress-bar4 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive4:checked ~ .progress4 > .progress-bar4  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty4:checked ~ .progress4 > .progress-bar4  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive4:checked ~ .progress4 > .progress-bar4  {
+    width: 75%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred4:checked ~ .progress4 > .progress-bar4  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+  
+  
+  /* 5. KUTU */
+  
+  .container5 .progress5 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress5 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar5 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+  #five5:checked ~ .progress5 > .progress-bar5 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive5:checked ~ .progress5 > .progress-bar5  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty5:checked ~ .progress5 > .progress-bar5  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive5:checked ~ .progress5 > .progress-bar5  {
+    width: 75%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred5:checked ~ .progress5 > .progress-bar5  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+  
+  /* 6. KUTU */
+  
+  .container6 .progress6 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress6 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar6 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+  #five6:checked ~ .progress6 > .progress-bar6 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive6:checked ~ .progress6 > .progress-bar6  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty6:checked ~ .progress6 > .progress-bar6  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive6:checked ~ .progress6 > .progress-bar6  {
+    width: 75%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred6:checked ~ .progress6 > .progress-bar6  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+  
+  
+  /* 7. KUTU */
+  
+  .container7 .progress7 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress7 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar7 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+  #five7:checked ~ .progress7 > .progress-bar7 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive7:checked ~ .progress7 > .progress-bar7  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty7:checked ~ .progress7 > .progress-bar7  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive7:checked ~ .progress7 > .progress-bar7  {
+    width: 75%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred7:checked ~ .progress7 > .progress-bar7  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+  
+  
+  /* 8. KUTU YAĞLAMA-1 */
+  
+  .container8 .progress8 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress8 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar8 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five8:checked ~ .progress8 > .progress-bar8 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive8:checked ~ .progress8 > .progress-bar8  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty8:checked ~ .progress8 > .progress-bar8  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive8:checked ~ .progress8 > .progress-bar8  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred8:checked ~ .progress8 > .progress-bar8  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+  
+  
+  /* 10. KUTU YAĞLAMA-2 */
+  
+  .container9 .progress9 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress9 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar9 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five9:checked ~ .progress9 > .progress-bar9 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive9:checked ~ .progress9 > .progress-bar9  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty9:checked ~ .progress9 > .progress-bar9  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive9:checked ~ .progress9 > .progress-bar9  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred9:checked ~ .progress9 > .progress-bar9  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+  
+  /* 11. KUTU YAĞLAMA-3 */
+  
+  .container10 .progress10 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress10 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar10 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five10:checked ~ .progress10 > .progress-bar10 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive10:checked ~ .progress10 > .progress-bar10  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty10:checked ~ .progress10 > .progress-bar10  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive10:checked ~ .progress10 > .progress-bar10  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred10:checked ~ .progress10 > .progress-bar10  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+  
+  /* 11. KUTU YAĞLAMA-3 */
+  
+  .container11 .progress11 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress11 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar11 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five11:checked ~ .progress11 > .progress-bar11 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive11:checked ~ .progress11 > .progress-bar11  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty11:checked ~ .progress11 > .progress-bar11  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive11:checked ~ .progress11 > .progress-bar11  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred11:checked ~ .progress11 > .progress-bar11  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+  
+  
+  /* 11. KUTU YAĞLAMA-3 */
+  
+  .container12 .progress12 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress12 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar12 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five12:checked ~ .progress12 > .progress-bar12 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive12:checked ~ .progress12 > .progress-bar12  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty12:checked ~ .progress12 > .progress-bar12  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive12:checked ~ .progress12 > .progress-bar12  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred12:checked ~ .progress12 > .progress-bar12  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+  
+  /* 11. KUTU YAĞLAMA-3 */
+  
+  .container13 .progress13 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress13 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar13 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five13:checked ~ .progress13 > .progress-bar13 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive13:checked ~ .progress13 > .progress-bar13  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty13:checked ~ .progress13 > .progress-bar13  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive13:checked ~ .progress13 > .progress-bar13  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred13:checked ~ .progress13 > .progress-bar13  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+  
+  /* 11. KUTU YAĞLAMA-3 */
+  
+  .container14 .progress14 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress14 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar14 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five14:checked ~ .progress14 > .progress-bar14 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive14:checked ~ .progress14 > .progress-bar14  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty14:checked ~ .progress14 > .progress-bar14  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive14:checked ~ .progress14 > .progress-bar14  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred14:checked ~ .progress14 > .progress-bar14  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+  
+  
+  /* 11. KUTU YAĞLAMA-3 */
+  
+  .container15 .progress15 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress15 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar15 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five15:checked ~ .progress15 > .progress-bar15 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive15:checked ~ .progress15 > .progress-bar15  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty15:checked ~ .progress15 > .progress-bar15  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive15:checked ~ .progress15 > .progress-bar15  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred15:checked ~ .progress15 > .progress-bar15  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+  
+  .container16 .progress16 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress16 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar16 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five16:checked ~ .progress16 > .progress-bar16 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive16:checked ~ .progress16 > .progress-bar16  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty16:checked ~ .progress16 > .progress-bar16  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive16:checked ~ .progress16 > .progress-bar16  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred16:checked ~ .progress16 > .progress-bar16  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+  
+  .container17 .progress17 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress17 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar17 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five17:checked ~ .progress17 > .progress-bar17 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive17:checked ~ .progress17 > .progress-bar17  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty17:checked ~ .progress17 > .progress-bar17  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive17:checked ~ .progress17 > .progress-bar17  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred17:checked ~ .progress17 > .progress-bar17  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+  
+  .container18 .progress18 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress18 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar18 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five18:checked ~ .progress18 > .progress-bar18 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive18:checked ~ .progress18 > .progress-bar18  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty18:checked ~ .progress18 > .progress-bar18  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive18:checked ~ .progress18 > .progress-bar18  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred18:checked ~ .progress18 > .progress-bar18  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+  
+  .container19 .progress19 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress19 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar19 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five19:checked ~ .progress19 > .progress-bar19 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive19:checked ~ .progress19 > .progress-bar19  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty19:checked ~ .progress19 > .progress-bar19  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive19:checked ~ .progress19 > .progress-bar19  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred19:checked ~ .progress19 > .progress-bar19  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+  .container20 .progress20 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress20 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar20 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five20:checked ~ .progress20 > .progress-bar20 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive20:checked ~ .progress20 > .progress-bar20  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty20:checked ~ .progress20 > .progress-bar20  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive20:checked ~ .progress20 > .progress-bar20  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred20:checked ~ .progress20 > .progress-bar20  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+  .container21 .progress21 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress21 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar21 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five21:checked ~ .progress21 > .progress-bar21 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive21:checked ~ .progress21 > .progress-bar21  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty21:checked ~ .progress21 > .progress-bar21  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive21:checked ~ .progress21 > .progress-bar21  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred21:checked ~ .progress21 > .progress-bar21  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+
+  .container22 .progress22 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress22 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar22 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five22:checked ~ .progress22 > .progress-bar22 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive22:checked ~ .progress22 > .progress-bar22  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty22:checked ~ .progress22 > .progress-bar22  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive22:checked ~ .progress22 > .progress-bar22  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred22:checked ~ .progress22 > .progress-bar22  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+
+  .container23 .progress23 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress23 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar23 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five23:checked ~ .progress23 > .progress-bar23 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive23:checked ~ .progress23 > .progress-bar23  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty23:checked ~ .progress23 > .progress-bar23  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive23:checked ~ .progress23 > .progress-bar23  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred23:checked ~ .progress23 > .progress-bar23  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+  .container24 .progress24 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress24 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar24 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five24:checked ~ .progress24 > .progress-bar24 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive24:checked ~ .progress24 > .progress-bar24  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty24:checked ~ .progress24 > .progress-bar24  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive24:checked ~ .progress24 > .progress-bar24  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred24:checked ~ .progress24 > .progress-bar24  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+
+  .container25 .progress25 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress25 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar25 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five25:checked ~ .progress25 > .progress-bar25 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive25:checked ~ .progress25 > .progress-bar25  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty25:checked ~ .progress25 > .progress-bar25  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive25:checked ~ .progress25 > .progress-bar25  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred25:checked ~ .progress25 > .progress-bar25  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+
+  .container26 .progress26 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress26 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar26 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five26:checked ~ .progress26 > .progress-bar26 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive26:checked ~ .progress26 > .progress-bar26  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty26:checked ~ .progress26 > .progress-bar26  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive26:checked ~ .progress26 > .progress-bar26  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred26:checked ~ .progress26 > .progress-bar26  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+
+  .container27 .progress27 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress27 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar27 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five27:checked ~ .progress27 > .progress-bar27 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive27:checked ~ .progress27 > .progress-bar27  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty27:checked ~ .progress27 > .progress-bar27  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive27:checked ~ .progress27 > .progress-bar27  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred27:checked ~ .progress27 > .progress-bar27  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+
+  .container28 .progress28 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress28 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar28 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five28:checked ~ .progress28 > .progress-bar28 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive28:checked ~ .progress28 > .progress-bar28  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty28:checked ~ .progress28 > .progress-bar28  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive28:checked ~ .progress28 > .progress-bar28  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred28:checked ~ .progress28 > .progress-bar28  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+
+  .container29 .progress29 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress29 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar29 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five29:checked ~ .progress29 > .progress-bar29 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive29:checked ~ .progress29 > .progress-bar29  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty29:checked ~ .progress29 > .progress-bar29  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive29:checked ~ .progress29 > .progress-bar29  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred29:checked ~ .progress29 > .progress-bar29  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+
+  .container30 .progress30 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress30 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar30 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five30:checked ~ .progress30 > .progress-bar30 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive30:checked ~ .progress30 > .progress-bar30  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty30:checked ~ .progress30 > .progress-bar30  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive30:checked ~ .progress30 > .progress-bar30  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred30:checked ~ .progress30 > .progress-bar30  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+
+
+  .container31 .progress31 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress31 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar31 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five31:checked ~ .progress31 > .progress-bar31 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive31:checked ~ .progress31 > .progress-bar31  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty31:checked ~ .progress31 > .progress-bar31  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive31:checked ~ .progress31 > .progress-bar31  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred31:checked ~ .progress31 > .progress-bar31  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+
+  .container32 .progress32 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress32 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar32 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five32:checked ~ .progress32 > .progress-bar32 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive32:checked ~ .progress32 > .progress-bar32  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty32:checked ~ .progress32 > .progress-bar32  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive32:checked ~ .progress32 > .progress-bar32  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred32:checked ~ .progress32 > .progress-bar32  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+
+
+  .container33 .progress33 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress33 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar33 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five33:checked ~ .progress33 > .progress-bar33 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive33:checked ~ .progress33 > .progress-bar33  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty33:checked ~ .progress33 > .progress-bar33  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive33:checked ~ .progress33 > .progress-bar33  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred33:checked ~ .progress33 > .progress-bar33  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+
+  .container34 .progress34 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress34 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar34 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five34:checked ~ .progress34 > .progress-bar34 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive34:checked ~ .progress34 > .progress-bar34  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty34:checked ~ .progress34 > .progress-bar34  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive34:checked ~ .progress34 > .progress-bar34  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred34:checked ~ .progress34 > .progress-bar34  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+  .container35 .progress35 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress35 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar35 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five35:checked ~ .progress35 > .progress-bar35 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive35:checked ~ .progress35 > .progress-bar35  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty35:checked ~ .progress35 > .progress-bar35  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive35:checked ~ .progress35 > .progress-bar35  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred35:checked ~ .progress35 > .progress-bar35  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+  .container36 .progress36 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress36 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar36 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five36:checked ~ .progress36 > .progress-bar36 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive36:checked ~ .progress36 > .progress-bar36  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty36:checked ~ .progress36 > .progress-bar36  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive36:checked ~ .progress36 > .progress-bar36  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred36:checked ~ .progress36 > .progress-bar36  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+  .container37 .progress37 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress37 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar37 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five37:checked ~ .progress37 > .progress-bar37 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive37:checked ~ .progress37 > .progress-bar37  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty37:checked ~ .progress37 > .progress-bar37  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive37:checked ~ .progress37 > .progress-bar37  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred37:checked ~ .progress37 > .progress-bar37  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+  .container38 .progress38 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress38 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar38 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five38:checked ~ .progress38 > .progress-bar38 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive38:checked ~ .progress38 > .progress-bar38  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty38:checked ~ .progress38 > .progress-bar38  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive38:checked ~ .progress38 > .progress-bar38  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred38:checked ~ .progress38 > .progress-bar38  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+  .container39 .progress39 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress39 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar39 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five39:checked ~ .progress39 > .progress-bar39 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive39:checked ~ .progress39 > .progress-bar39  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty39:checked ~ .progress39 > .progress-bar39  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive39:checked ~ .progress39 > .progress-bar39  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred39:checked ~ .progress39 > .progress-bar39  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+  .container40 .progress40 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress40 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar40 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five40:checked ~ .progress40 > .progress-bar40 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive40:checked ~ .progress40 > .progress-bar40  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty40:checked ~ .progress40 > .progress-bar40  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive40:checked ~ .progress40 > .progress-bar40  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred40:checked ~ .progress40 > .progress-bar40  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+  .container41 .progress41 {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .progress41 {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  
+  .progress-bar41 {
+    height: 16px;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+   #five41:checked ~ .progress41 > .progress-bar41 {
+    width: 5%;
+    background-color: #86e01e;
+  }
+  
+  #twentyfive41:checked ~ .progress41 > .progress-bar41  {
+    width: 25%;
+    background-color: #86e01e;
+  }
+  
+  #fifty41:checked ~ .progress41 > .progress-bar41  {
+    width: 50%;
+    background-color: #86e01e;
+  }
+  
+  #seventyfive41:checked ~ .progress41 > .progress-bar41  {
+    width: 85%;
+    background-color: #f2d31b;
+  }
+  
+  #onehundred41:checked ~ .progress41 > .progress-bar41  {
+    width: 100%;
+    background-color: #f63a0f;
+  }
+
+  .radio {
+    display: none;
+  }
+  
+  .radio:checked + .label {
+    color: white;
+    background: rgba(0, 0, 0, 0.25);
+  }
+  
+
+}

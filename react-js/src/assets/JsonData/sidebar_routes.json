@@ -1,0 +1,33 @@
+[
+  {
+    "display_name": "ANA SAYFA",
+    "route": "/",
+    "icon": "bx bx-home"
+  },
+  {
+   "display_name":"ADIGE",
+    "route": "/adige",
+    "icon": "bx bx-outline"
+  },
+  {
+    "display_name":"KONTAKTORLER",
+     "route": "/adige",
+     "icon": "bx bx-outline"
+   },
+   {
+    "display_name":"AUX CONTACTOR",
+     "route": "/auxkontaktor",
+     "icon": "bx bx-outline"
+   },
+  {
+    "display_name": "ABKANT",
+    "route": "/settings",
+    "icon": "bx bx-pyramid"
+  },
+  {
+    "display_name": "AYARLAR",
+    "route": "/deneme",
+    "icon": "bx bx-cog"
+  }
+  
+]

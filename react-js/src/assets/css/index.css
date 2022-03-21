@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --main-bg: #ffffff;
+  --second-bg: #fafafb;
+  --txt-color: #455560;
+  --txt-white: #fff;
+  --main-color: #349eff;
+  --second-color: #62b4ff;
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  --main-bg-light: #ffffff;
+  --second-bg-light: #fafafb;
+  --txt-color-light: #455560;
+  --box-shadow-light: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  --main-bg-dark: #2d2d2d;
+  --second-bg-dark: #202020;
+  --txt-color-dark: #bbbbbb;
+  --box-shadow-dark: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+
+  --main-color-blue: #349eff;
+  --second-color-blue: #62b4ff;
+
+  --main-color-red: #fb0b12;
+  --second-color-red: #ff4a6b;
+
+  --main-color-cyan: #10d4d2;
+  --second-color-cyan: #2ae9e6;
+
+  --main-color-green: #019707;
+  --second-color-green: #4caf50;
+
+  --main-color-orange: #d68102;
+  --second-color-orange: #fca11a;
+
+  --sidebar-width: 300px;
+  --border-radius: 15px;
+  --topnav-height: 110px;
+  --transition-cubic: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.7px;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: var(--main-color);
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  color: var(--txt-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+input {
+  border: 2px solid transparent;
+  outline: 0;
+}
+
+input:focus {
+  border: 2px solid var(--main-color);
+}
+
+.page-header {
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.card {
+  font-weight: bold;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: var(--main-bg);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+
+.full-height {
+  height: 100%;
+}
+
+.card.full-height {
+  height: calc(100% - 30px);
+}
+
+.card__header {
+  text-transform: capitalize;
+}
+
+.card > div ~ div {
+  margin-top: 30px;
+}
+
+.card__footer {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.light-background {
+  background-color: var(--main-bg-light);
+  color: #000;
+}
+
+.dark-background {
+  background-color: var(--main-bg-dark);
+  color: #fff;
+}
+
+.blue-color {
+  background-color: var(--main-color-blue);
+  color: #fff;
+}
+
+.red-color {
+  background-color: var(--main-color-red);
+  color: #fff;
+}
+
+.cyan-color {
+  background-color: var(--main-color-cyan);
+  color: #fff;
+}
+
+.green-color {
+  background-color: var(--main-color-green);
+  color: #fff;
+}
+
+.orange-color {
+  background-color: var(--main-color-orange);
+  color: #fff;
+}
+
+/* @media screen and (min-width: 1920px) {
+  .neoGreen {
+    padding-left: 10px;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #0e8c14, #11a718);
+    box-shadow: 0px 0px 2px #0a620e, 0px 0px 0px #16d61e;
+    display: grid;
+    height: 20px;
+    margin-top: -20px;
+    margin-left: 310px;
+    margin-bottom: 0px;
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .neoGreen {
+    padding-left: 10px;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #0e8c14, #11a718);
+    box-shadow: 0px 0px 0px #0a620e, 0px 0px 0px #16d61e;
+    display: grid;
+    height: 20px;
+    margin-top: -20px;
+    margin-left: 210px;
+    margin-bottom: 0px;
+    width: 20px;
+  }
+} */
+/* .card:hover .container{
+  visibility: hidden;
+}
+
+.neoGreen img{
+  padding: 0px;
+  margin-top: auto;
+  margin-left: -60px;
+  visibility: hidden;
+}
+.card:hover .neoGreen img{
+  visibility: visible;
+} */
+
+/* .card:hover .neoGreen{
+  visibility: hidden;
+}
+.card:hover h4{
+  visibility: hidden;
+}
+
+.card:hover .container{
+  visibility: hidden;
+}
+
+.card h3{
+  visibility: visible;
+}
+
+.card:hover h3{
+  visibility: visible;
+  color: white;
+  margin-top: -50px;
+  padding-top: 0px;
+  text-align: center;
+  font-size: 15px;
+}
+ */
+
+ @media screen and (min-width: 1920px) {
+  .Project {
+    margin-left: 0px;
+    margin-top: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 5px;
+    height: 9px;
+    cursor: pointer;
+  }
+  .Project:hover .imgMasked {
+    -webkit-clip-path: circle(100px at center);
+    clip-path: circle(100px at center);
+  }
+  .Project:hover .Project-hail {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+  }
+  .Project:hover .Project-hail2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 80px solid #fff4e6;
+    opacity: 0;
+  }
+  .Project:hover .Project-name {
+    left: 200%;
+    opacity: 1;
+  }
+  .Project:hover .Project-name:before {
+    width: 100%;
+  }
+  .Project-hail {
+    margin-left: -95px;
+    margin-top: -110px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #d6d6d6;
+    width: 20px;
+    height: 20px;
+    border-radius: 40px;
+    transition: 0.5s;
+    opacity: 0.2;
+  }
+  .Project-hail2 {
+    margin-left: -95px;
+    margin-top: -110px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 15px;
+    transition: 0.7s;
+    border:10px solid #24d40c;
+    border-radius: 50px;
+    pointer-events: none;
+  }
+  .imgMasked {
+    margin-left: -95px;
+    margin-top: -110px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    height: 200px;
+    -webkit-clip-path: circle(10px at center);
+    clip-path: circle(10px at center);
+    transition: 0.5s;
+    pointer-events: none;
+  }
+  .Project-name {
+    margin-left: -95px;
+    margin-top: -110px;
+    position: absolute;
+    max-width: 600px;
+    min-width: 100px;
+    left: 0px;
+    top: 80px;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #000;
+    padding: 3px 6px 0px;
+    z-index: 2;
+    opacity: 0;
+  }
+  .Project-name:before {
+    content: "";
+    width: 0;
+    height: 100%;
+    background-color: #f0544f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+    z-index: -1;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Project {
+    margin-left: -190px;
+    margin-top: -79px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 5px;
+    height: 9px;
+    cursor: pointer;
+  }
+  .Project:hover .imgMasked {
+    -webkit-clip-path: circle(100px at center);
+    clip-path: circle(100px at center);
+  }
+  .Project:hover .Project-hail {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+  }
+  .Project:hover .Project-hail2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 80px solid #fff4e6;
+    opacity: 0;
+  }
+  .Project:hover .Project-name {
+    left: 200%;
+    opacity: 1;
+  }
+  .Project:hover .Project-name:before {
+    width: 100%;
+  }
+  .Project-hail {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #d6d6d6;
+    width: 20px;
+    height: 20px;
+    border-radius: 40px;
+    transition: 0.5s;
+    opacity: 0.2;
+  }
+  .Project-hail2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 15px;
+    transition: 0.7s;
+    border:10px solid #24d40c;
+    border-radius: 50px;
+    pointer-events: none;
+  }
+  .imgMasked {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    height: 200px;
+    -webkit-clip-path: circle(10px at center);
+    clip-path: circle(10px at center);
+    transition: 0.5s;
+    pointer-events: none;
+  }
+  .Project-name {
+    position: absolute;
+    max-width: 600px;
+    min-width: 100px;
+    left: 0px;
+    top: 80px;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #000;
+    padding: 3px 6px 0px;
+    z-index: 2;
+    opacity: 0;
+  }
+  .Project-name:before {
+    content: "";
+    width: 0;
+    height: 100%;
+    background-color: #f0544f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+    z-index: -1;
+  }
+}
